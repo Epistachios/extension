@@ -1,0 +1,30 @@
+{
+  "name": "epistache",
+  "description": "Récupération du token de l'intranet et de epitest pour Epistache.",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "wxt",
+    "dev:firefox": "wxt -b firefox",
+    "build": "wxt build",
+    "build:firefox": "wxt build -b firefox",
+    "zip": "wxt zip",
+    "zip:firefox": "wxt zip -b firefox",
+    "compile": "vue-tsc --noEmit",
+    "postinstall": "wxt prepare",
+    "lint:check": "prettier --check .",
+    "lint": "prettier --write ."
+  },
+  "dependencies": {
+    "@tabler/icons-vue": "^3.1.0",
+    "vue": "^3.4.0"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^5.0.1",
+    "prettier": "^3.2.5",
+    "typescript": "^5.3.3",
+    "vue-tsc": "^2.0.6",
+    "wxt": "^0.17.0"
+  }
+}
