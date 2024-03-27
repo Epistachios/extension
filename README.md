@@ -35,6 +35,6 @@ Cette extension est distribuée sous la licence Apache 2.0, vous permettant de l
 
 ## Support
 
-Si vous rencontrez des problèmes ou avez des questions concernant l'extension, veuillez [ouvrir un ticket](lien vers les issues du dépôt GitHub) sur ce dépôt GitHub.
+Si vous rencontrez des problèmes ou avez des questions concernant l'extension, veuillez [ouvrir un ticket](https://github.com/Epistachios/extension/issues) sur ce dépôt GitHub.
 
-
+Généré avec [MarkdownView](https://www.markdownview.com/) ✨
