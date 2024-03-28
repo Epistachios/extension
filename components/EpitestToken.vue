@@ -9,7 +9,7 @@ const getEpitestToken = async () => {
 
   if (tabs.length > 0 && tabs[0].id) {
     const response = await browser.tabs.sendMessage(tabs[0].id, {
-      acttion: 'getLocalStorage',
+      action: 'getLocalStorage',
       key: 'argos-api.oidc-token'
     })
 
@@ -22,7 +22,7 @@ const getEpitestToken = async () => {
 const copy = async (token: string | null) => {
   if (token) {
     try {
-      navigator.clipboard.writeText(token)
+      await navigator.clipboard.writeText(token)
       copied.value = true
 
       setTimeout(() => {

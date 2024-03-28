@@ -16,7 +16,7 @@ const getIntraToken = async () => {
 const copy = async (token: string | null) => {
   if (token) {
     try {
-      navigator.clipboard.writeText(token)
+      await navigator.clipboard.writeText(token)
       copied.value = true
 
       setTimeout(() => {
